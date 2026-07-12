@@ -1,4 +1,4 @@
-name: patey_sate_mal
+name: potey_sate_mal
 description: "ပုတီးစိပ်မယ် - မွန်မြတ်သော ပုတီးစိပ်ရေတွက်ကူညီပေးသည့် App"
 publish_to: 'none'
 version: 1.0.0+1
@@ -31,6 +31,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+# 👈 Added for changing the app icon
+  flutter_launcher_icons: ^0.13.1
+
+# 👈 App Icon Configuration Settings
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
 
 flutter:
   uses-material-design: true
