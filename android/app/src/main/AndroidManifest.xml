@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<uses-permission android:name="android.permission.INTERNET"/>
+
     <application
-        android:label="patey_sate_mal"
+        android:label="Potey Sate Mal"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
