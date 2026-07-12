@@ -1,0 +1,36 @@
+name: patey_sate_mal
+description: "ပုတီးစိပ်မယ် - မွန်မြတ်သော ပုတီးစိပ်ရေတွက်ကူညီပေးသည့် App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Local storage (today's count + daily history + alarm settings)
+  shared_preferences: ^2.3.2
+
+  # Daily reminder alarm/notification
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # Myanmar-friendly font
+  google_fonts: ^6.2.1
+
+  # Record/history bar chart
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
